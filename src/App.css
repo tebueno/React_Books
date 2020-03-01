@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 200px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  height: 30px;
+  font-weight: 500;
+}
+
+.searchForm>input {
+  margin-left: 4px;
+  height: 15px;
+}
+
+.searchForm>button {
+  width: 50px;
+  height: 21px;
+  padding: 1px;
+  margin-left: 4px;
+  border: solid 1px blue;
+  border-radius: 8px;
+}
+
+.bookFilters {
+  display: flex;
+  justify-content: center;
+  background: lightgray;
+  height: 25px;
+  font-weight: 500;
+}
+
+.printType {
+  margin: 5px;
+  width: 80px;
+}
+
+.bookType {
+  margin: 5px;
+  width: 240px;
+}
